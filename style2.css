@@ -1,0 +1,181 @@
+/* =========================
+   TEACHERS PAGE
+========================= */
+
+.teacher-form {
+    background-color: white;
+    padding: 30px;
+    max-width: 700px;
+    margin-bottom: 40px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+}
+
+.teacher-form h2 {
+    color: #0b5d1e;
+    margin-bottom: 25px;
+}
+
+.teacher-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.teacher-form label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.teacher-form input,
+.teacher-form select {
+    padding: 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    font-size: 15px;
+}
+
+.teacher-form input:focus,
+.teacher-form select:focus {
+    outline: none;
+    border-color: #0b5d1e;
+}
+
+.teacher-form button {
+    margin-top: 25px;
+    padding: 13px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #0b5d1e;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.teacher-form button:hover {
+    background-color: #084816;
+}
+
+
+/* =========================
+   TEACHER TABLE
+========================= */
+
+.teacher-list {
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+
+    overflow-x: auto;
+}
+
+.teacher-list h2 {
+    color: #0b5d1e;
+    margin-bottom: 20px;
+}
+
+.teacher-list table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    min-width: 750px;
+}
+
+.teacher-list th,
+.teacher-list td {
+    padding: 12px;
+
+    border-bottom: 1px solid #ddd;
+
+    text-align: left;
+}
+
+.teacher-list th {
+    background-color: #0b5d1e;
+    color: white;
+}
+
+.teacher-list tr:hover {
+    background-color: #f5f5f5;
+}
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #0b5d1e;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+}
+
+/* Footer paragraphs */
+footer p {
+    margin: 8px 0;
+    color: white;
+    font-size: 14px;
+}
+
+/* School Management System */
+footer p:nth-child(2) {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Footer links */
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #c8e6c9;
+    text-decoration: underline;
+}
+
+/* Contact */
+footer p:last-child {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* Mobile screen */
+@media (max-width: 600px) {
+
+    footer {
+        padding: 25px 10px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .footer-links a {
+        margin: 0;
+    }
+}
